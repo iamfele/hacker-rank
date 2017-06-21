@@ -20,7 +20,7 @@ public class Person {
         if (age<13){
         	System.out.println("You are young.");
         }
-        if(age>=13 && age<18){
+        else if(age>=13 && age<18){
         	System.out.println("You are a teenager.");
         }
         else
